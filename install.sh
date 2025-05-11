@@ -10,3 +10,4 @@ cd ..
 git clone https://github.com/Alexays/Waybar.git
 git clone https://github.com/LGFae/swww.git
 wget https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.0.tar.xz
+git clone https://github.com/vinceliuice/Graphite-gtk-theme
