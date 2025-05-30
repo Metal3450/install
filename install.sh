@@ -3,7 +3,8 @@
 sudo cp -r hyprland-void.conf /etc/xbps.d/
 sudo xbps-install -Su
 sudo xbps-install -Sy hyprland hyprlock wofi curl wget meson ninja make
-sudo xbps-install zip unzip nerd-fonts-symbols-ttf pulseaudio pavucontrol xorg-server-xwayland xorg-server-xwayland-32bit
+sudo xbps-install zip unzip nerd-fonts-symbols-ttf pulseaudio pavucontrol xorg-server-xwayland xorg-server-xwayland-32bit mesa-32bit mesa-vulkan-intel-32bit libglvnd-32bit
+sudo xbps-install -S mesa-dri mesa-vulkan-intel libglvnd
 sudo xbps-install -Sy void-repo-multilib void-repo-nonfree glibc-32bit libX11-32bit libXext-32bit libstdc++-32bit libdrm-32bit libGL-32bit
 cp -r ./confs/* ~/.config 
 cp -r ./.bashrc ~/
