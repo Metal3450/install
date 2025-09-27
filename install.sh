@@ -7,6 +7,7 @@ sudo xbps-install zip unzip nerd-fonts-symbols-ttf alsa-utils alsa-lib alsa-plug
 sudo xbps-install -y mesa-dri mesa-vulkan-intel libglvnd
 sudo xbps-install -y void-repo-multilib void-repo-nonfree glibc-32bit libX11-32bit libXext-32bit libstdc++-32bit libdrm-32bit libGL-32bit
 sudo xbps-install -y font-awesome dejavu-fonts-ttf
+chsh -s /usr/bin/zsh
 cd ..
 git clone https://github.com/Alexays/Waybar.git
 git clone https://github.com/LGFae/swww.git
