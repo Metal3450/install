@@ -2,6 +2,9 @@
 
 # INSTALL SCRIPT
 
+#installs oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Makes copies of the configs to ~/.config and etc.
 cp ./dotfiles/vars/.* ~/
 cp -r ./dotfiles/config/* ~/.config/
@@ -25,8 +28,4 @@ git clone https://github.com/vinceliuice/Graphite-gtk-theme
 sudo ln -s /etc/sv/seatd /var/service
 sudo ln -s /etc/sv/sddm /var/service
 sudo ln -s /etc/sv/chronyd /var/service
-
-#installs oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 
