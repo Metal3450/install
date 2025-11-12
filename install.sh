@@ -13,8 +13,8 @@ sudo cp -r ./repos/* /etc/xbps.d/
 
 #Installs libs and bins
 sudo xbps-install -Su
-sudo xbps-install -y hyprland hyprlock wofi Waybar curl wget meson ninja make seatd elogind sddm sddm-kcm nano vim neovim chrony zsh
-sudo xbps-install zip unzip nerd-fonts-symbols-ttf alsa-utils alsa-lib alsa-plugins apulse xorg-server-xwayland xorg-server-xwayland-32bit mesa-32bit mesa-vulkan-intel-32bit libglvnd-32bit
+sudo xbps-install -y hyprland hyprlock wofi Waybar curl wget meson ninja make seatd elogind sddm sddm-kcm nano vim neovim chrony zsh grim
+sudo xbps-install zip unzip nerd-fonts-symbols-ttf font-firacode alsa-utils alsa-lib alsa-plugins apulse xorg-server-xwayland xorg-server-xwayland-32bit mesa-32bit mesa-vulkan-intel-32bit libglvnd-32bit
 sudo xbps-install -y mesa-dri mesa-vulkan-intel libglvnd
 sudo xbps-install -y void-repo-multilib void-repo-nonfree glibc-32bit libX11-32bit libXext-32bit libstdc++-32bit libdrm-32bit libGL-32bit
 sudo xbps-install -y font-awesome dejavu-fonts-ttf
