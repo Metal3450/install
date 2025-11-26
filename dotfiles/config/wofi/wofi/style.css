@@ -1,0 +1,33 @@
+window {
+  background-color: #282828;
+  foreground-color: #000;
+}
+
+#input {
+  background-color: #282828;
+  color: #ebdbb2;
+}
+
+#inner-box {
+  background-color: #282828;
+}
+
+#outer-box {
+  background-color: #282828;
+}
+
+#text {
+  color: #ebdbb2;
+}
+
+#scroll {
+  background-color: #282828;
+}
+
+#entry:selected {
+  border: #000;
+}
+
+#text {
+  color: #ebdbb2;
+} 

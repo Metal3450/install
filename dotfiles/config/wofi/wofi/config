@@ -1,0 +1,14 @@
+font=Fira Code
+term=kitty
+gtk-dark=true
+location=center
+width=50%
+height=50%
+show=drun
+normal_window=true
+promt=
+columns=2
+insensitive=false
+show_all=false
+print_command=true
+term=kitty
