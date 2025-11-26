@@ -28,4 +28,4 @@ git clone https://github.com/vinceliuice/Graphite-gtk-theme
 sudo ln -s /etc/sv/seatd /var/service
 sudo ln -s /etc/sv/sddm /var/service
 sudo ln -s /etc/sv/chronyd /var/service
-
+sudo ln -s /etc/sv/alsa /var/service

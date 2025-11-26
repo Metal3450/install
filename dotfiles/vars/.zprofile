@@ -1,9 +1,3 @@
-[[ $- != *i* ]] && return
-
-alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
-eval $(dbus-launch --sh-syntax)
-alias cmus='HOME=/home/mark/cmus cmus'
 export XDG_RUNTIME_DIR=/run/user/$(id -u)
 export XDG_SESSION_CLASS=user
 export XDG_SESSION_TYPE=wayland
