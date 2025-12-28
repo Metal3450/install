@@ -8,7 +8,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Makes copies of the configs to ~/.config and etc.
 cp ./dotfiles/vars/.* ~/
 cp -r ./dotfiles/config/* ~/.config/
-cp -r ./cmus ~/
 sudo cp -r ./repos/* /etc/xbps.d/
 
 #Installs libs and bins
